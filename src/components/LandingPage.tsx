@@ -58,8 +58,8 @@ const LandingPage: React.FC<LandingPageProps> = ({
               >
                 Servicios
               </a>
-              <a
-                href="#about"
+                            <a
+                href="#hero"
                 className="text-sm font-medium text-slate-600 hover:text-blue-600 transition-colors"
               >
                 Nosotros
@@ -106,7 +106,10 @@ const LandingPage: React.FC<LandingPageProps> = ({
                   La mejor barbería de la ciudad
                 </span>
               </div>
-              <h1 className="text-5xl md:text-7xl font-extrabold text-slate-900 leading-[1.1] tracking-tight">
+              <h1
+                id="hero"
+                className="text-5xl md:text-7xl font-extrabold text-slate-900 leading-[1.1] tracking-tight"
+              >
                 Eleva tu{" "}
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-indigo-600">
                   Estilo
