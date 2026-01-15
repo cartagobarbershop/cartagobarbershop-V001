@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: cartagobarbershop-v001
+    env: node
+    buildCommand: npm run build
+    startCommand: npm start
